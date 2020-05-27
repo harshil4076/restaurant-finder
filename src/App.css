@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.InputSelection {
+  border: 1px solid #ececec;
+  margin: 100px;
+  padding: 100px;
+  background-color: #f7f7f7;
+}
+
+.SearchResult {
+  border: 1px solid #ececec;
+  margin: 100px;
+  padding: 30px;
+}
+
+@media(max-width : 815px) {
+  .InputSelection{
+    margin: 30px;
+    padding: 30px;
+  }
+  .SearchResult {
+      margin: 30px;
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+}

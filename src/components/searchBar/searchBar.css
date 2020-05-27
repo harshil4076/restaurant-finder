@@ -1,0 +1,44 @@
+.searchBar{
+    columns: 1;
+}
+.Input {
+    margin: 5px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 5px;
+}
+
+@media(max-width: 568px){
+    .Input {
+        width: 100%
+    }
+}
+/* screen size less then 568px the input turns to column */
+@media(max-width: 815px){
+    .searchBar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .SearchButton {
+        width: 100%;
+    }
+}
+
+.SearchButton {
+    background-color: #4CAF50;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+

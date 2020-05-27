@@ -1,0 +1,1 @@
+This project uses  https://opentable.herokuapp.com/ api to create a Restaurant finder App.
