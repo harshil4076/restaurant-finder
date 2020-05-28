@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export function apiCall(method,type,  data){
     return new Promise((resolve, reject) => {
-        return axios[method](`http://opentable.herokuapp.com/api${type}`, {
+        return axios[method](`https://opentable.herokuapp.com/api${type}`, {
             params: {
                 ...data
             }
