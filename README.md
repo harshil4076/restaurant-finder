@@ -2,7 +2,7 @@
 
 + It was build with CREATE REACT APP . 
 
-+ I used REDUX fro state management.
++ I used REDUX for state management.
 
 + Hosted on [https://sharp-swirles-b5d892.netlify.app/]
 
